@@ -1,0 +1,250 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.bg_color {
+  background-color: #eee;
+}
+.container {
+  width: 1240px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+.padding-left {
+  padding-left: 4px;
+}
+.logo {
+  color: rgb(16 112 158);
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+}
+.signin_card {
+  padding: 25px;
+  width: 28%;
+  margin: 0 auto;
+  margin-top: 15px;
+  box-shadow: 0 0 30px 10px #eee;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+.signup_card {
+  padding: 25px;
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 15px;
+  box-shadow: 0 0 30px 10px #eee;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+.title {
+  font-weight: 500;
+}
+.title-1 {
+  font-weight: 400;
+  text-align: center;
+  padding: 15px 0;
+}
+.para {
+  font-size: 14px;
+}
+.input {
+  outline: none;
+  padding: 10px 4px;
+  border-radius: 6px;
+  margin-top: 15px;
+  border: 1px solid #6f6b6b;
+  width: 100%;
+}
+.input-1 {
+  outline: none;
+  padding: 6px 4px;
+  border-radius: 6px;
+  border: 1px solid #6f6b6b;
+}
+.input-1:hover {
+  background-color: #e6e2e2;
+  border: 1px solid #000;
+}
+.link-1 {
+  text-decoration: none;
+  font-size: 16px;
+  color: rgb(11 102 195);
+  padding: 0 0 15px;
+}
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  background: rgb(11 102 195);
+  color: #fff;
+  text-align: center;
+  padding: 8px 22px;
+  border-radius: 24px;
+  transition: 0.5s;
+}
+.btn:hover {
+  background-color: rgb(8 85 163);
+}
+.bottom {
+  border-top: 1px solid #b9b5b5;
+  margin-top: 25px;
+  padding-top: 25px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  position: relative;
+}
+.btn-2 {
+  display: inline-block;
+  text-decoration: none;
+  border: 1px solid #b9b5b5;
+  border-radius: 24px;
+  text-align: center;
+  padding: 8px 22px;
+  font-size: 14px;
+  color: #000;
+  font-weight: 500;
+}
+.icon {
+  font-size: 18px;
+  padding: 0 8px;
+}
+.text {
+  text-align: center;
+  padding-top: 30px;
+}
+.para-2 {
+  font-weight: 500;
+  font-size: 15px;
+  padding: 15px 0 0;
+  text-align: center;
+}
+.para-3 {
+  font-size: 12px;
+  padding: 15px 0;
+}
+.link-2 {
+  text-decoration: none;
+  color: rgb(11 102 195);
+  font-weight: 500;
+  font-size: 15px;
+}
+.link-2:hover {
+  text-decoration: underline;
+}
+.footer {
+  padding: 35px 0;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  gap: 15px;
+}
+.link-3 {
+  text-decoration: none;
+  color: #000;
+}
+.link-3:hover {
+  text-decoration: underline;
+}
+.link-4 {
+  text-decoration: none;
+}
+.or {
+  position: absolute;
+  display: inline;
+  top: -15px;
+  left: 122px;
+  background: #fff;
+  padding: 0 10px;
+}
+.mt-15p {
+  margin-top: 15px;
+}
+.show {
+  text-decoration: none;
+  color: rgb(11 102 195);
+  font-family: "Poppins", sans-serif;
+  width: fit-content;
+  padding: 2px 3px;
+  font-weight: 500;
+  position: relative;
+  top: -52px;
+  right: -245px;
+  font-size: 14px;
+}
+.show:hover{
+  background-color:#ebf5ff;
+  border-radius: 6px;
+}
+.hide{
+  text-decoration: none;
+  color: rgb(11 102 195);
+  font-family: "Poppins", sans-serif;
+  width: fit-content;
+  padding: 2px 3px;
+  font-weight: 500;
+  position: relative;
+  top: -54px;
+    right: -250px;
+  font-size: 14px;
+  display: none;
+}
+.hide:hover{
+  background-color:#ebf5ff;
+  border-radius: 6px;
+}
+.show-1 {
+  text-decoration: none;
+  color: rgb(11 102 195);
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  position: relative;
+  top: -27px;
+  right: -268px;
+  font-size: 14px;
+}
+.msg{
+  font-size: 14px;
+  color: rgb(247, 34, 34);
+  visibility: hidden;
+}
+.valid_msg{
+  font-size: 14px;
+  color: rgb(247, 34, 34);
+  visibility: hidden;
+}
+
+.success_msg{
+  font-size: 14px;
+  color: green;
+  visibility: hidden;
+  text-align: center;
+}
+.msg_visib{
+  visibility: visible!important;
+}
+.welcome_msg{
+  position: absolute;
+    top: 280px;
+    right: 150px;
+    background-color: #f1f3f5;
+    padding: 15px;
+    border-radius: 6px;
+    visibility: hidden;
+}
+.d-none{
+  display: none!important;
+}
+.d-block{
+  display: block!important;
+}
